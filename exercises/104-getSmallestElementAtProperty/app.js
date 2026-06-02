@@ -1,6 +1,9 @@
 function getSmallestElementAtProperty(obj, key) {
-    // your code here
-  
+    // retorna el elemento más pequeño del array ubicado en dicha key.
+    if (Array.isArray(obj[key]) && obj[key].length > 0) {
+        return Math.min(...obj[key]);
+    }
+    return [];
 }
 
 let obj = {
