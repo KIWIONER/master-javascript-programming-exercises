@@ -1,7 +1,8 @@
 function addToBack(arr, element) {
-  // your code here
-  
+  // retorna el array con el elemento añadido al final.
+  arr.push(element);
+  return arr;
 }
 
-let output = addToBack([1, 2], 3);
-console.log(output); // -> [1, 2, 3]
+let output = addToBack([1, 2], "cerezas frias");
+console.log(output); // -> [1, 2, "cerezas frias"]

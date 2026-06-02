@@ -1,5 +1,7 @@
 function joinArrays(arr1, arr2) {
-  // your code here
+  // retorna un array con los elementos de arr1, 
+  // seguido por los elementos de arr2 en orden.
+  return arr1.concat(arr2);
   
 }
 

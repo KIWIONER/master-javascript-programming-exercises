@@ -1,6 +1,7 @@
 function getElementsUpTo(array, n) {
-  // your code here
-  
+  // retorna un array con todos los elementos hasta 
+  // (pero sin incluir) el elemento en el índice dado.
+  return array.slice(0, n);
 }
 
 let output = getElementsUpTo(['a', 'b', 'c', 'd', 'e'], 3) 

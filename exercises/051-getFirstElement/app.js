@@ -1,7 +1,8 @@
 function getFirstElement(array) {
-  // Add your code after this line
+  // regresa el primer elemento del array
+  return array[0];
 
 }
 
-let output = getFirstElement([1, 2, 3, 4, 5]);
-console.log(output); // --> 1
+let output = getFirstElement([99999, 2, 3, 4, 5]);
+console.log(output); // --> 99999

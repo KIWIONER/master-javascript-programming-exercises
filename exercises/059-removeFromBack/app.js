@@ -1,5 +1,7 @@
 function removeFromBack(arr) {
-    // your code here
+    // retorna el array con su último elemento eliminado.
+    arr.pop();
+    return arr;
     
 }
 

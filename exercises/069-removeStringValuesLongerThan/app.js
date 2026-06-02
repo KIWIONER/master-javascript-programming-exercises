@@ -1,6 +1,11 @@
 function removeStringValuesLongerThan(num, obj) {
-  // your code here
-  
+  // elimina cualquier propiedad en el objeto dado cuyos 
+  // valores son strings más largas que el número dado.
+  for (let key in obj) {
+    if (typeof obj[key] === 'string' && obj[key].length > num) {
+      delete obj[key];
+    }
+  }
 }
 
 let obj = {

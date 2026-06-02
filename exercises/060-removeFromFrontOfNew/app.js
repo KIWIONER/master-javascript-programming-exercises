@@ -1,6 +1,7 @@
 function removeFromFrontOfNew(arr) {
-    // your code here
-    
+    //  retorna un nuevo array que 
+    // contenga todos los elementos menos el primero del array dado.
+    return arr.slice(1);
 }
 
 let arr = [1, 2, 3];
