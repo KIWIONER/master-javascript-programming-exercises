@@ -1,5 +1,15 @@
 function filterEvenElements(arr) {
-    // your code here
+    // retorna un array que contenga solo los números pares encontrados en el array.
+    if(arr.length === 0) {
+        return 0;
+    }
+    let evenElements = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            evenElements.push(arr[i]);
+        }
+    }
+    return evenElements;
     
 }
 

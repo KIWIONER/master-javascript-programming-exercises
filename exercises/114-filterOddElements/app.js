@@ -1,5 +1,12 @@
 function filterOddElements(arr) {
-  // your code here
+  // devuelve un array que contiene solo los números impares del array dado.
+  let oddElements = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 !== 0) {
+      oddElements.push(arr[i]);
+    }
+  }
+  return oddElements;
   
 }
 

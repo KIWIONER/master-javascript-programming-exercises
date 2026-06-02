@@ -1,5 +1,15 @@
 function getLargestElementAtProperty(obj, key) {
-    // your code here
+    // retorna el elemento más grande en el array ubicado en dicha key.
+    if (!obj[key] || !Array.isArray(obj[key]) || obj[key].length === 0) {
+        return [];
+    }
+    let largest = obj[key][0];
+    for (let i = 1; i < obj[key].length; i++) {
+        if (obj[key][i] > largest) {
+            largest = obj[key][i];
+        }
+    }
+    return largest;
     
 }
 
