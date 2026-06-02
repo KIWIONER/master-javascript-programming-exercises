@@ -8,8 +8,8 @@ let obj = {
 }
 
 function countNumberOfKeys(obj) {
-    // your code here
-   
+    // retorna la cantidad de propiedades que el objeto dado tenga.
+    return Object.keys(obj).length;
 }
 
 let output = countNumberOfKeys(obj);
